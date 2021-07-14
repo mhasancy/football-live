@@ -1,11 +1,12 @@
 /* google fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
-/* common styles */
+/* ---------------
+  common styles
+  ---------------- */
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 0;
 }
 .container {
   margin-bottom: 70px;
@@ -264,27 +265,36 @@ p {
     text-decoration: none;
     line-height: 24px;
     font-weight: 500;
+    text-align: left;
     margin-left: -116px;
   }
   .link-button:hover {
     transition: 1.5s ease-in;
     background-color: #3dbafd;
   }
+  .section-title {
+    font-size: 40px;
+    color: #e02c6d;
+    margin: 3px auto 50px auto;
+    width: 329px;
+    text-align: left;
+  }
   /* banner style  */
   .banner-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     background-color: #2d25a0;
     height: 695px;
+
     width: 100%;
     margin: 0;
     padding: 0;
   }
   .banner-info {
     display: block;
-
-    margin: 112px 66px 0px 16px;
+    margin: 0 auto;
     display: block;
     align-items: left;
     height: 212px;
@@ -295,13 +305,14 @@ p {
     font-size: 36px;
     font-weight: 700;
     line-height: 50px;
-    margin: 0 0 30px 0;
+    margin: 0 auto;
+    margin-bottom: 30px;
     width: 100%;
     height: 138px;
     text-align: left;
   }
   .banner-image {
-    margin: 50px 16px 62px 16px;
+    margin: 20px auto;
     height: 260px;
     width: 329px;
   }
@@ -316,15 +327,64 @@ p {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 24px;
-    margin: 0 15px;
+    margin: 0 auto;
+    width: 330px;
+  }
+  .player-name,
+  .player-info > p {
+    text-align: left;
+  }
+
+  .blogs {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(1, 1fr); */
+    grid-row-gap: 27px;
+    width: 330px;
+    margin: 0 auto;
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: left;
+  }
+  .blog .thumbnail img {
+    height: 250px;
+    width: 329px;
+  }
+  .blog-info {
+    margin: 0 0;
+  }
+
+  .shop-items-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 24px;
+    margin: 0 auto;
     width: 330px;
     align-items: center;
     text-align: left;
   }
-
-  .blogs,
-  .shop-items-container,
   .footer-items {
-    display: none;
+    display: block;
+    /* flex-direction: column; */
+    width: 271px;
+    height: 213px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .footer-logo img {
+    width: 271px;
+    height: 63px;
+    margin: 0 auto;
+  }
+  .social-icon {
+    display: flex;
+    height: 32px;
+    width: 170px;
+    color: #969bab;
+    margin: 20px auto;
   }
 }

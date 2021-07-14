@@ -39,6 +39,14 @@ body {
   margin-bottom: 50px;
   justify-content: center;
 }
+hr {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 1050px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 27px;
+  margin-top: 11px;
+}
 /* --------------------
   banner section styles
   --------------------- */
@@ -59,6 +67,7 @@ body {
   align-items: center;
   height: 301px;
   width: 485px;
+  text-align: left;
 }
 .banner-info h1 {
   color: #ffffff;

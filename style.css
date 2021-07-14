@@ -123,6 +123,7 @@ hr {
 .player-info {
   width: 300px;
   height: 154px;
+  text-align: left;
 }
 .player-info h3 {
   font-size: 28px;
@@ -136,6 +137,7 @@ hr {
   height: 104px;
   margin: 0;
   overflow: hidden;
+  text-align: left;
 }
 /* -------------------
   top blogs style
@@ -286,7 +288,6 @@ p {
     line-height: 24px;
     font-weight: 500;
     text-align: left;
-    margin-left: -116px;
   }
   .link-button:hover {
     transition: 1.5s ease-in;

@@ -316,7 +316,7 @@ p {
   }
   .banner-info {
     display: block;
-    margin: 0 auto;
+    margin: 0 18px;
     display: block;
     align-items: left;
     height: 212px;

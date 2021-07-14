@@ -334,7 +334,7 @@ p {
     text-align: left;
   }
   .banner-image {
-    margin: 20px auto;
+    margin: 20px auto 20px 15px;
     height: 260px;
     width: 329px;
   }
